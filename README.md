@@ -2,8 +2,10 @@
 The Repository reference from the https://github.com/thangnch/MiAI_Langchain_RAG, I want to learn the LangChain framework. The Repo is my first project to understand how load models, create a Vector Database, Prompt components, Format files interact with LLMs, and RAG (Retrieval Augmented Generation).
 
 # 1. Install Required Dependencies
-``` git clone https://github.com/NhanAyai/LangChain-QA-Prompt-Query-From-Text-and-PDF-Documents.git```
+```git clone https://github.com/NhanAyai/LangChain-QA-Prompt-Query-From-Text-and-PDF-Documents.git```
+
 ```cd LangChain-QA-Prompt-Query-From-Text-and-PDF-Documents```
+
 ```pip install -r setup.txt ```
 
 # 2. Prepare Directories and Download Models
