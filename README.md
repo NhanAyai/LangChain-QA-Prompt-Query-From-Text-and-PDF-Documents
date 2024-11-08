@@ -18,15 +18,18 @@ Download [vinallama-7b-chat-GGUF](https://huggingface.co/vilm/vinallama-7b-chat-
 
 # 3. Prepare Vector Database
 ```python prepare_vector_db.py```
+
 Run the script prepare_vector_db.py to create the vector database. The script will store vectors in a database that can be queried later.
 You can generate vectors either from text files or directly from PDF documents. The script has an optional function that allows you to use text data to populate the database.
 
 # 4. Test the Sample Query
 ```python simplechain.py```
+
 Run simplechain.py to test the query functionality using a sample question. You can input your question in the question variable, and the script will return the most relevant answer from the vector database.
 
 # 5. Create a Chatbot Q&A System
 ```python qabot.py```
+
 To run a full Q&A chatbot, execute the qabot.py script. This will create a ChatBox that can:
 Query from normal text.
 Retrieve context from PDF documents stored in the data directory.
